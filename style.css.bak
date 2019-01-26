@@ -1,0 +1,92 @@
+body {
+/*	background-image: url('background.jpg');
+
+background: linear-gradient(transparent 40%, black 75%), url('background.jpg');
+
+	padding: 0;
+	margin: 0;
+}
+*/
+/****************  Header Styles*************/
+
+.main-header {
+	display: flex;
+	margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+main {
+	width: 65%;
+	background-color: white;
+	margin: 50px auto;
+	box-shadow: 5px 5px 5px rgba(0,0,0, .8), -5px -5px 5px rgba(0,0,0, .8);
+
+}
+
+footer {
+	background-color: lightblue;
+}
+
+a:link {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:visited {
+	text-decoration: none;
+	color: inherit;	
+}
+
+a:hover {
+	background-color: black;
+}
+
+.newsletter {
+	padding: 25px;
+
+
+}
+
+.nextEvent {
+	width: 45%;
+	border: 2px solid red;
+	float: right;
+	padding: 2px;
+}
+
+.locationPic {
+	width: 45%;
+	float: left;
+}
+
+img {
+	width: 100%;
+	box-shadow: 5px 5px 5px rgba(0,0,0, .8);
+	border-radius: 15px;
+}
+
+.group: after {
+	content: '';
+	display: table;
+	clear: both
+}
+
+.fees {
+	color: red;
+	text-decoration: underline;
+}
+
+.prev {
+	clear: both;
+	padding-top: 20px;
+}
+
